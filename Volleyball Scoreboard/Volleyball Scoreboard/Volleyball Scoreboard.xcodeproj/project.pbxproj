@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586A8CD924E300710060A66A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586A8CD824E300710060A66A /* AppDelegate.swift */; };
+		586A8CDB24E300710060A66A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586A8CDA24E300710060A66A /* SceneDelegate.swift */; };
+		586A8CDD24E300710060A66A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586A8CDC24E300710060A66A /* ViewController.swift */; };
+		586A8CE024E300710060A66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586A8CDE24E300710060A66A /* Main.storyboard */; };
+		586A8CE224E300730060A66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586A8CE124E300730060A66A /* Assets.xcassets */; };
+		586A8CE524E300730060A66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586A8CE324E300730060A66A /* LaunchScreen.storyboard */; };
+		586A8CF024E300730060A66A /* Volleyball_ScoreboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586A8CEF24E300730060A66A /* Volleyball_ScoreboardTests.swift */; };
+		586A8CFB24E300730060A66A /* Volleyball_ScoreboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586A8CFA24E300730060A66A /* Volleyball_ScoreboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		586A8CEC24E300730060A66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586A8CCD24E300710060A66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586A8CD424E300710060A66A;
+			remoteInfo = "Volleyball Scoreboard";
+		};
+		586A8CF724E300730060A66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586A8CCD24E300710060A66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586A8CD424E300710060A66A;
+			remoteInfo = "Volleyball Scoreboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		586A8CD524E300710060A66A /* Volleyball Scoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volleyball Scoreboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		586A8CD824E300710060A66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		586A8CDA24E300710060A66A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		586A8CDC24E300710060A66A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		586A8CDF24E300710060A66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586A8CE124E300730060A66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		586A8CE424E300730060A66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		586A8CE624E300730060A66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586A8CEB24E300730060A66A /* Volleyball ScoreboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Volleyball ScoreboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		586A8CEF24E300730060A66A /* Volleyball_ScoreboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volleyball_ScoreboardTests.swift; sourceTree = "<group>"; };
+		586A8CF124E300730060A66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586A8CF624E300730060A66A /* Volleyball ScoreboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Volleyball ScoreboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		586A8CFA24E300730060A66A /* Volleyball_ScoreboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volleyball_ScoreboardUITests.swift; sourceTree = "<group>"; };
+		586A8CFC24E300730060A66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586A8CD224E300710060A66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A8CE824E300730060A66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A8CF324E300730060A66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586A8CCC24E300710060A66A = {
+			isa = PBXGroup;
+			children = (
+				586A8CD724E300710060A66A /* Volleyball Scoreboard */,
+				586A8CEE24E300730060A66A /* Volleyball ScoreboardTests */,
+				586A8CF924E300730060A66A /* Volleyball ScoreboardUITests */,
+				586A8CD624E300710060A66A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		586A8CD624E300710060A66A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				586A8CD524E300710060A66A /* Volleyball Scoreboard.app */,
+				586A8CEB24E300730060A66A /* Volleyball ScoreboardTests.xctest */,
+				586A8CF624E300730060A66A /* Volleyball ScoreboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		586A8CD724E300710060A66A /* Volleyball Scoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				586A8CD824E300710060A66A /* AppDelegate.swift */,
+				586A8CDA24E300710060A66A /* SceneDelegate.swift */,
+				586A8CDE24E300710060A66A /* Main.storyboard */,
+				586A8CDC24E300710060A66A /* ViewController.swift */,
+				586A8CE124E300730060A66A /* Assets.xcassets */,
+				586A8CE324E300730060A66A /* LaunchScreen.storyboard */,
+				586A8CE624E300730060A66A /* Info.plist */,
+			);
+			path = "Volleyball Scoreboard";
+			sourceTree = "<group>";
+		};
+		586A8CEE24E300730060A66A /* Volleyball ScoreboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				586A8CEF24E300730060A66A /* Volleyball_ScoreboardTests.swift */,
+				586A8CF124E300730060A66A /* Info.plist */,
+			);
+			path = "Volleyball ScoreboardTests";
+			sourceTree = "<group>";
+		};
+		586A8CF924E300730060A66A /* Volleyball ScoreboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				586A8CFA24E300730060A66A /* Volleyball_ScoreboardUITests.swift */,
+				586A8CFC24E300730060A66A /* Info.plist */,
+			);
+			path = "Volleyball ScoreboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		586A8CD424E300710060A66A /* Volleyball Scoreboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586A8CFF24E300730060A66A /* Build configuration list for PBXNativeTarget "Volleyball Scoreboard" */;
+			buildPhases = (
+				586A8CD124E300710060A66A /* Sources */,
+				586A8CD224E300710060A66A /* Frameworks */,
+				586A8CD324E300710060A66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Volleyball Scoreboard";
+			productName = "Volleyball Scoreboard";
+			productReference = 586A8CD524E300710060A66A /* Volleyball Scoreboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		586A8CEA24E300730060A66A /* Volleyball ScoreboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586A8D0224E300730060A66A /* Build configuration list for PBXNativeTarget "Volleyball ScoreboardTests" */;
+			buildPhases = (
+				586A8CE724E300730060A66A /* Sources */,
+				586A8CE824E300730060A66A /* Frameworks */,
+				586A8CE924E300730060A66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				586A8CED24E300730060A66A /* PBXTargetDependency */,
+			);
+			name = "Volleyball ScoreboardTests";
+			productName = "Volleyball ScoreboardTests";
+			productReference = 586A8CEB24E300730060A66A /* Volleyball ScoreboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		586A8CF524E300730060A66A /* Volleyball ScoreboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586A8D0524E300730060A66A /* Build configuration list for PBXNativeTarget "Volleyball ScoreboardUITests" */;
+			buildPhases = (
+				586A8CF224E300730060A66A /* Sources */,
+				586A8CF324E300730060A66A /* Frameworks */,
+				586A8CF424E300730060A66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				586A8CF824E300730060A66A /* PBXTargetDependency */,
+			);
+			name = "Volleyball ScoreboardUITests";
+			productName = "Volleyball ScoreboardUITests";
+			productReference = 586A8CF624E300730060A66A /* Volleyball ScoreboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		586A8CCD24E300710060A66A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Marvin Yu";
+				TargetAttributes = {
+					586A8CD424E300710060A66A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					586A8CEA24E300730060A66A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 586A8CD424E300710060A66A;
+					};
+					586A8CF524E300730060A66A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 586A8CD424E300710060A66A;
+					};
+				};
+			};
+			buildConfigurationList = 586A8CD024E300710060A66A /* Build configuration list for PBXProject "Volleyball Scoreboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 586A8CCC24E300710060A66A;
+			productRefGroup = 586A8CD624E300710060A66A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				586A8CD424E300710060A66A /* Volleyball Scoreboard */,
+				586A8CEA24E300730060A66A /* Volleyball ScoreboardTests */,
+				586A8CF524E300730060A66A /* Volleyball ScoreboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		586A8CD324E300710060A66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586A8CE524E300730060A66A /* LaunchScreen.storyboard in Resources */,
+				586A8CE224E300730060A66A /* Assets.xcassets in Resources */,
+				586A8CE024E300710060A66A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A8CE924E300730060A66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A8CF424E300730060A66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586A8CD124E300710060A66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586A8CDD24E300710060A66A /* ViewController.swift in Sources */,
+				586A8CD924E300710060A66A /* AppDelegate.swift in Sources */,
+				586A8CDB24E300710060A66A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A8CE724E300730060A66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586A8CF024E300730060A66A /* Volleyball_ScoreboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A8CF224E300730060A66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586A8CFB24E300730060A66A /* Volleyball_ScoreboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		586A8CED24E300730060A66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 586A8CD424E300710060A66A /* Volleyball Scoreboard */;
+			targetProxy = 586A8CEC24E300730060A66A /* PBXContainerItemProxy */;
+		};
+		586A8CF824E300730060A66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 586A8CD424E300710060A66A /* Volleyball Scoreboard */;
+			targetProxy = 586A8CF724E300730060A66A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		586A8CDE24E300710060A66A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586A8CDF24E300710060A66A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		586A8CE324E300730060A66A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586A8CE424E300730060A66A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		586A8CFD24E300730060A66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		586A8CFE24E300730060A66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		586A8D0024E300730060A66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC77AKA2A8;
+				INFOPLIST_FILE = "Volleyball Scoreboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNSW.Volleyball-Scoreboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		586A8D0124E300730060A66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC77AKA2A8;
+				INFOPLIST_FILE = "Volleyball Scoreboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNSW.Volleyball-Scoreboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		586A8D0324E300730060A66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC77AKA2A8;
+				INFOPLIST_FILE = "Volleyball ScoreboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNSW.Volleyball-ScoreboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Volleyball Scoreboard.app/Volleyball Scoreboard";
+			};
+			name = Debug;
+		};
+		586A8D0424E300730060A66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC77AKA2A8;
+				INFOPLIST_FILE = "Volleyball ScoreboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNSW.Volleyball-ScoreboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Volleyball Scoreboard.app/Volleyball Scoreboard";
+			};
+			name = Release;
+		};
+		586A8D0624E300730060A66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC77AKA2A8;
+				INFOPLIST_FILE = "Volleyball ScoreboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNSW.Volleyball-ScoreboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Volleyball Scoreboard";
+			};
+			name = Debug;
+		};
+		586A8D0724E300730060A66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC77AKA2A8;
+				INFOPLIST_FILE = "Volleyball ScoreboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UNSW.Volleyball-ScoreboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Volleyball Scoreboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586A8CD024E300710060A66A /* Build configuration list for PBXProject "Volleyball Scoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586A8CFD24E300730060A66A /* Debug */,
+				586A8CFE24E300730060A66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586A8CFF24E300730060A66A /* Build configuration list for PBXNativeTarget "Volleyball Scoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586A8D0024E300730060A66A /* Debug */,
+				586A8D0124E300730060A66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586A8D0224E300730060A66A /* Build configuration list for PBXNativeTarget "Volleyball ScoreboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586A8D0324E300730060A66A /* Debug */,
+				586A8D0424E300730060A66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586A8D0524E300730060A66A /* Build configuration list for PBXNativeTarget "Volleyball ScoreboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586A8D0624E300730060A66A /* Debug */,
+				586A8D0724E300730060A66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 586A8CCD24E300710060A66A /* Project object */;
+}
